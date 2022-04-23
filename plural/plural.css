@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.dg{
+    background-color: rgb(208, 192, 192);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 1em;
+  
+    display: flex;
+
+
+
+}
+.div1{
+    background-color: #000000; 
+    width: 700px;
+
+    
+   
+
+
+}
+.div2{
+    background-image: url(https://www.pluralsight.com/content/dam/pluralsight2/login/bg-gtm-2020.png);
+    background-color: #000000; 
+    text-align: center; 
+    margin-left: 90px; 
+    width: 990px;
+}
+ 
+.m1{
+    margin-top: 30px;
+    margin-left: 130px;
+    height: 50px;
+}
+.la12{
+    display: flex;
+}
+.lab{
+    color: white;
+    margin-left: 130px;
+   
+}
+input{
+    margin-left: 130px;
+    background-color: black;
+    border-color: rgb(209, 201, 201);
+    border-radius: 2px;
+    width: 250px;
+    height: 30px;
+    
+
+      
+}
+button{
+    margin-left: 130px; 
+    margin-top: 30px;
+    width:260px ;
+    height: 35px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.lin{
+    margin-top: 30px; 
+   
+} 
+.a{
+    margin-top: 30px;
+    margin-left: 130px;
+    background-color: rgb(20, 10, 10);
+  
+
+} 
+
+.a a{
+    text-decoration: none;
+    color: dodgerblue;
+    text-justify: auto;
+}
+.aa {
+    background-color: darkgray;
+    margin-top: 30px;
+    width:250px ;
+    height: 30px;
+    margin-left: 130px;
+}
+   
+.aa a{
+    text-decoration: none;
+    margin-left: 60px;
+    color: white;
+}
+
+.img{
+width: 30px;
+margin-top: 30px;
+}
+
+.img img{
+    width: 50px;
+    height: 50px;
+    color: rgb(230, 226, 239);
+}
+.foot{
+    background-color: rgb(15, 11, 11);
+}
+
+p{
+    color: white;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+
+.di img{
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.do{
+    width: 300px;
+    height: 50px;
+}
+.do a{
+background-color: #e355aa;
+text-decoration: none;
+color: white;
+border-radius: 3px;
+}
+.la img{
+    width: 100px;
+    height: 30px;
+    color: aliceblue;
+
+}
+.la{
+    position: absolute;
+    right: 90px;
+   
+    bottom:0px;
+
+}
+
+
+
+
+
+
+
+.ge{
+    background-color: black;
+    height: 300px;
+    width: 600px;
+    margin: auto;
+
+}
+
+.generic{
+    background-color: #ec008c;
+    width: 600px;
+    height: 7px;
+}
+
+
+.dg2 {
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://www.pluralsight.com/content/dam/pluralsight2/product/v2/skills-bg-cs.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+    margin-top: 50px;
+    height: 500px;
+  }
+  .sol h6{
+      color: #ec008c;
+  }
+
+  .bout{
+      background-color:#ec008c;
+      width: 150px;
+      height: 50px;
+      border-radius: 5px;
+      margin-right: 90px;
+  }
+
+  .lab2{
+      background-color: grey;
+      width: 200px;
+      height: 50px;
+      border-radius: 5px;
+  }
+  .footer{
+      background-color: #000000;
+  }
+  .ulli{
+      display: flex;
+      text-align: justify;
+      
+  }
+  .ulli ul {
+    list-style: none;
+
+  }
+  .ulli ul li{
+      color:grey ;
+  }
+  .ulli ul a{
+    text-decoration: none;
+  }
+  h2{
+      color: #ffffff;
+  }
