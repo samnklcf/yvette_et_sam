@@ -238,3 +238,40 @@ header {
     margin-top: 25px;
     color: #FFBA0E;
 }
+
+.pr {
+    width: 100%;
+    height: 500.25px;
+    margin-top: 10px;
+}
+.pr .lf {
+    background-image: url('/img/ordi.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 60%;
+}
+
+.pr .rt {
+    background: linear-gradient(100.37deg, rgb(236, 0, 139) 0%, rgb(241, 90, 34) 100%);
+    width: 40%;
+    height: 100%;
+    padding: 60px ;
+}
+
+.pr .rt p {
+    color: white;
+    padding-top: 20px;
+}
+
+.gros-btn {
+    padding: 17px 30px;
+    border: none;
+    background-color: var(--quarter);
+    color: white;
+    font-weight: 900;
+    margin-top: 20px;
+    
+
+}
