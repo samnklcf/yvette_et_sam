@@ -1,0 +1,240 @@
+@import url('../cssrapid_nk/cssrapid_by_nk.css');
+@import url('../cssrapid_nk/sguide_nk.css');
+
+@font-face {
+    font-family: 'ps';
+    src: url('../fonts/PS_TT_Commons_Regular.ttf');
+}
+
+
+body {
+    font-family: 'ps';
+    background: linear-gradient(gray, 5%, black);
+}
+
+header {
+    height: 90px;
+    font-size: 13px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 10000;
+    box-shadow: 0 2px 24px black;
+}
+
+.menu li {
+    display: flex;
+    gap: 20px;
+    font-weight: 900;
+    height: 100%;
+    display:flex;
+    align-items: center;
+}
+.menu li a {
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+
+}
+
+.bouton-nu {
+    border: 1px solid white;
+    padding: 12px 24px;
+    color: white;
+    font-weight: 900;
+    font-size: 13px;
+
+
+    
+}
+
+.autre span {
+    border-left: 1px solid white;
+}
+
+.sign {
+    color: white;
+    font-weight: 900;
+
+}
+.sign svg {
+    margin-left: 10px;
+}
+
+/* ---------------------------brand-------------------- */
+
+.brand {
+    /* background: url('/img/hero-illustration.png'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    height: 150vh;
+    width: 100%;
+    padding-bottom: 400px;
+    background-color: black;
+    clip-path: polygon(0% 0%, 100% 0, 100% 74%, 50% 100%, 0 73%);
+    position: relative;
+    
+
+    
+}
+.band{
+    position: absolute;
+    top: 85px;
+    
+}
+
+.gif {
+    z-index: 10;
+}
+
+.mesbtn {
+    width: 100%;
+}
+
+.btn1, .btn2 {
+    padding: 16px 29px;
+    font-weight: 900;
+    color: white;
+    font-size: 12px;
+}
+.btn2 {
+    border: 1px solid white;
+    background: none;
+    
+}
+.btn1 {
+    background-image: linear-gradient(to right,#F05A28,#EC008C, #F05A28);
+    border: none;
+    border-radius: 3px;
+}
+.trait {
+    /* border-image: border-image: linear-gradient( to bottom, #EC008C, #F15B2A, rgba(0, 0, 0, 0) ) 1 100%; */
+    color: white;
+    width: 10px;
+    height: 200px;
+    z-index: 30;
+    background-image: linear-gradient( to bottom, #EC008C, #F15B2A, rgba(0, 0, 0, 0) ) 1 100%;
+    position: absolute;
+    bottom: 150px;
+}
+
+/* ------------------------------star------------------------------ */
+.start {
+    gap: 100px;
+}
+
+/* ------------------------------deuxieme section pour les langages ------------------- */
+
+.langage {
+    width: 970px;
+    margin: auto;
+    position: relative;
+    top: -150px;
+    z-index: 100;
+    
+   
+}
+.langage h3 {
+    font-weight: 900;
+   
+}
+.cart {
+    width: 100%;
+    gap: 40px;
+    margin-top: 45px;
+}
+.cote {
+    background-color: var(--primar);
+    width: 50%;
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+  
+}
+.cote img {
+    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.cote p, .cote h2 {
+    color: #fff;
+    font-weight: 100;
+}
+
+/* --------------------------------Part3------------------------------------ */
+.part3 {
+    background-color: var(--primar);
+    padding: 90px 20px;
+}
+
+.down {
+    width: 100%;
+    height: 438px;
+    box-shadow: 0 2px 24px rgba(0, 0, 0, 0.349);
+    margin-top: 25px;
+    border-radius: 20px;
+}
+.one,.two {
+    width: 50%;
+}
+
+.two img {
+    width: 100%;
+    height: 100%;
+}
+
+.one {
+    padding: 60px 40px;
+}
+.phrase {
+    font-size: 17px;
+    color: white;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+/* -------------------------------Les trois blocks-------------------------------------- */
+.trio {
+    margin-top: 40px;
+
+    width: 100%;
+    gap: 40px;
+}
+
+.uno {
+    background-color: var(--primar);
+    box-shadow: 0 2px 24px rgba(0, 0, 0, 0.349);
+    height: 502px;
+    width: 33.33%;
+    border-radius: 20px;
+    padding: 50px 40px 70px 40px;
+    
+}
+.ng {
+    padding: 80px 20px;
+}
+
+.gal {
+    width: 100%;
+    gap: 15px;
+}
+
+.objet {
+    width: 25%;
+    margin-top: 30px;
+}
+
+.objet img {
+    width: 100%;
+    border-radius: 20px;
+}
+.objet h4 {
+    margin-top: 25px;
+    color: #FFBA0E;
+}

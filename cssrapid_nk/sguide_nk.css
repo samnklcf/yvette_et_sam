@@ -1,0 +1,180 @@
+:root{
+    --primar: #212121;
+    --second: #E40084;
+    --third: #fff;
+    --quarter: #181818;
+    --fiveth: #189DB3;
+    --sixth: #17BEBB;
+    --seventh: #B6465F;
+    --background-low: #000;
+}
+/* ----------------Taille des textes----------------------- */
+
+.grande-police1 {
+    font-size: 52px;
+}
+.moyenne-police2 {
+    font-size: 26px;
+}
+.normal-police {
+    font-size: 14px;
+}
+.tiny-police {
+    font-size: 11px;
+}
+
+.small-font {
+    font-size: 14px;
+}
+.tiny-font {
+    font-size: 10px;
+}
+/* ----------------Bold des textes----------------------- */
+.max-bold {
+    font-weight: 900;
+}
+.normal-bold {
+    font-weight: 500;
+}
+.min-bold {
+    font-weight: 200;
+}
+/* ----------------Couleurs des textes----------------------- */
+.text-color-primar{
+    color: var(--primar);
+}
+.text-color-second{
+    color: var(--second);
+}
+.text-color-third{
+    color: var(--third);
+}
+.text-color-quarter{
+    color: var(--quarter);
+}
+.text-color-fiveth{
+    color: var(--fiveth);
+}
+.text-color-sixth{
+    color: var(--sixth);
+}
+.text-color-seventh{
+    color: var(--seventh);
+}
+
+/* ----------------Couleurs de fond----------------------- */
+
+.bg-primar{
+    background-color: var(--primar);
+}
+.bg-second{
+    background-color: var(--second);
+}
+.bg-third{
+    background-color: var(--third);
+}
+.bg-quarter{
+    background-color: var(--quarter);
+}
+.bg-fiveth{
+    background-color: var(--fiveth);
+}
+.bg-sixth{
+    background-color: var(--sixth);
+}
+.bg-seventh{
+    background-color: var(--seventh);
+}
+.bg-low {
+    background-color: var(--background-low);
+}
+
+/* ------------------------------Espaces entre les lettres---------------------------------- */
+
+.space-letters1 {
+    letter-spacing: 2px;
+}
+.space-letters2 {
+    letter-spacing: 1px;
+}
+
+/* -----------------espace entre les lignes------------------- */
+.space-rows {
+    line-height: 20px;
+}
+
+/* ------------------------------Distance entre les contenaire---------------------------------- */
+.max-margin{
+    margin-top: 200px;
+}
+.min-margin{
+    margin-top: 100px;
+}
+
+/* ------------------------------Centrer un élément---------------------------------- */
+.center-element-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center-element-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ------------------------------Distance entre les éléments en Display ----------------------------- */
+
+.small-gap {
+    gap: 10px;
+}
+.normal-gap {
+    gap: 20px;
+}
+.big-gap {
+    gap: 30px;
+}
+.small-gap-row{
+    row-gap: 10px;
+}
+.normal-gap-row{
+    row-gap: 20px;
+}
+.big-gap-row{
+    row-gap: 30px;
+}
+
+/* ------------------------------Espace dans les coins du body ----------------------------- */
+.normal-space-padding {
+    padding: 0px 40px;
+}
+.bog-space-padding {
+    padding: 0px 40px;
+}
+
+.normal-space-margin {
+    margin: 0px 100px;
+}O
+.bg-space-margin {
+    margin: 0px 150px;
+}
+
+
+/* ------------------------------parametres des boutons ----------------------------- */
+.btn-small {
+    padding: 16px 30px;
+    border: none;
+}
+
+.btn-normal {
+    padding: 18px 34px;
+    border: none;
+    /* height: 52.46px;
+    width: 214.14px; */
+}
+.btn-big {
+    padding: 20px 100px;
+    border: none;
+}
